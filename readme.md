@@ -13,7 +13,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 201
 The _research_overview_.pdf file contains the context, methods and preliminary results related with this repository.
 
 
-**Please Note**:
+*Please Note*:
 The main references which the repository is based are located in the references folder.
 
 #### Tensorflow Graphs
@@ -35,13 +35,13 @@ A complete package list at ```requirements.txt```
 ##### Installation
 ```
 # clone this repository
-git clone https://github.com/TUM-LMF/fieldRNN.git
-cd fieldRNN
+git clone https://github.com/acocac/landtrajectories.git
+cd landtrajectories
 
-# download body of data to execute train.py and evaluate.py (~5 GB)
+# download body of data to execute train.py and evaluate.py (~77 MB)
 sh download_data.sh
 
-# download tf checkpoints and svm baseline to run cvprwsevaluation.ipynb (~50 GB)
+# download tf checkpoints to run 1_explore_traintest.ipynb (~3.5 GB)
 sh download_models.sh
 ```
 
@@ -85,7 +85,7 @@ The generated files ```svm/scores.npy```, ```svm/targets.npy```,  ```svm/predict
 
 ## Data
 
-download train and test datasets of the first fold and the evaluation dataset via
+download train and test datasets of the all folds and the evaluation dataset via
 ```
 sh download_data.sh
 ```
