@@ -77,12 +77,6 @@ The latest checkpoint of one model is restored and the entire body of *evaluatio
 After the evaluation process ```eval_targets.npy```, ```eval_probabilities.npy``` and ```eval_observations.npy``` are stores in the ```save``` directory.
 These files are later used for calculation of accuracy metrics by ```2_explore_evaluation.ipynb```
 
-## Support Vector Machine baseline
-Support Vector Machine for baseline evaluation is based on [scikit-learn](http://scikit-learn.org/stable/) framework
-
-The script ```svm.py``` performes the gridsearch.
-The generated files ```svm/scores.npy```, ```svm/targets.npy```,  ```svm/predicted.npy``` are needed for ```cvprwsevaluation.ipynb```
-
 ## Data
 
 download train and test datasets of the all folds and the evaluation dataset via
